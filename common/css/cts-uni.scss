@@ -1,0 +1,83 @@
+$cts-img-url: '';
+
+page {
+	color: $uni-text-color;
+}
+view {
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.justify-center {
+  @extend .flex;
+  justify-content: center;
+}
+.align-center {
+  @extend .flex;
+  align-items: center;
+}
+.justify-between {
+  @extend .flex;
+  justify-content: space-between;
+}
+.flex-column-center {
+  @extend .flex-column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row-center {
+  @extend .flex;
+  justify-content: center;
+  align-items: center;
+}
+.width750 {
+  width: 750rpx;
+}
+.width686 {
+  width: 686rpx; // 首页留边 宽度
+}
+.letter-spacing2 {
+  letter-spacing: 2px;
+}
+.margin-top-60 {
+  margin-top: 60rpx;
+}
+.margin-right-30 {
+	margin-right: 30rpx;
+}
+.padding-lr-30 {
+  padding: 0 30rpx;
+}
+// wl-header最高层
+.z-index-1001 {
+	z-index: 1001;
+}
+// 其他固定层
+.z-index-901 {
+	z-index: 901;
+}
+// 万历解说文章段落样式
+.cts-article {
+	// font-size: 16px;
+	// word-wrap: break-word;
+	// letter-spacing: 2px;
+	// line-height: 24px;
+	font-size: 32rpx;
+	word-wrap: break-word;
+	letter-spacing: 2rpx;
+	line-height: 50rpx;
+	color:rgba(119,119,119,1);
+}
+// 
+.separate-line-width {
+	width: 750rpx;
+	height: 10rpx;
+	background: rgba(231, 231, 231, 0.3);
+}
+
